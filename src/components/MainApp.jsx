@@ -136,7 +136,7 @@ async function predict(
   return content
 }
 
-function MainApp({}) {
+function MainApp() {
   const [locality, setlocality] = React.useState(0)
 
   const [bhk, setBHK] = React.useState(1)
