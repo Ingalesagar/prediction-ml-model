@@ -116,7 +116,7 @@ async function predict(
     body: JSON.stringify({
       locality,
       bhk,
-      balcony,
+      balcony : -balcony,
       bathroom,
       parking,
       property_age: age,
